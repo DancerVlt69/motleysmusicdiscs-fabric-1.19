@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "motleysmusicdiscs",
+  "version": "${version}",
+
+  "name": "Motley's Music Discs",
+  "description": "This is a mod adding my favorite songs to Minecraft as 8-bit music discs! Featuring music by Lovejoy, Bo Burnham, and more, this is a mod for my friends and I to listen to some tunes. Music by various artists (more information in credits). Subscribe to my YouTube channel at youtube.com/gracemotley",
+  "authors": [
+    "Mod by GraceMotley. Music by Koopastar, Disphing, et al."
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/motleysmusicdiscs-fabric"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gracemotley.motleysmusicdiscs.MotleysMusicDiscs"
+    ]
+  },
+  "mixins": [
+    "motleysmusicdiscs.mixins.json"
+  ],
+  "client": [
+    "net.gracemotley.motleysmusicdiscs.MotleysMusicDiscsModClient"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
