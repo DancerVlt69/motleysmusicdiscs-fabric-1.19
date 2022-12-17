@@ -1,13 +1,6 @@
 {
-  "item.motleysmusicdiscs.raw_tanzanite": "Raw Tanzanite",
-  "item.motleysmusicdiscs.tanzanite": "Tanzanite",
-
-  "block.motleysmusicdiscs.tanzanite_block": "Block of Tanzanite",
-  "block.motleysmusicdiscs.tanzanite_ore": "Tanzanite Ore",
-  "block.motleysmusicdiscs.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
-
-  "motleysmusicdiscs.content_boburnham": "Music Disc",
-  "motleysmusicdiscs.content_boburnham.desc": "Content - Bo Burnham",
+  "motleysmusicdiscs.content_boburnham_music_disc": "Music Disc",
+  "motleysmusicdiscs.content_boburnham_music_disc.desc": "Content - Bo Burnham",
 
   "itemGroup.motleysmusicdiscs.discs": "Motley's Music Discs"
 }
