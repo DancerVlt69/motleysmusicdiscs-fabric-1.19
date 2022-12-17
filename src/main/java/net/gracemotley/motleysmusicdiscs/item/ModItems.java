@@ -15,6 +15,9 @@ public class ModItems {
 public static final Item CONTENT_BOBURNHAM_MUSIC_DISC = registerItem("content_boburnham_music_disc",
         new ModMusicDiscItem(7, ModSounds.CONTENT_BOBURNHAM,
                 new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 96));
+public static final Item COMEDY_BOBURNHAM_MUSIC_DISC = registerItem("comedy_boburnham_music_disc",
+        new ModMusicDiscItem(7, ModSounds.COMEDY_BOBURNHAM,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 314));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MotleysMusicDiscs.MOD_ID, name), item);

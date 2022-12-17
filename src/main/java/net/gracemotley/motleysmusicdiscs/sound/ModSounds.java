@@ -7,6 +7,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModSounds {
     public static SoundEvent CONTENT_BOBURNHAM = registerSoundEvent("content_boburnham");
+    public static SoundEvent COMEDY_BOBURNHAM = registerSoundEvent("comedy_boburnham");
 
 
 
