@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Motley's Music Discs",
-  "description": "This is a mod adding my favorite songs to Minecraft as 8-bit music discs! Featuring music by Lovejoy, Bo Burnham, and more, this is a mod for my friends and I to listen to some tunes. Music by various artists (more information in credits). Subscribe to my YouTube channel at youtube.com/gracemotley",
+  "description": "This is a mod adding my favorite songs to Minecraft as 8-bit music discs! Featuring music by Lovejoy, Bo Burnham, and more, this is a mod for my friends and I to listen to some tunes. 8-bit covers by various artists (more information in credits). Subscribe to my YouTube channel at youtube.com/gracemotley",
   "authors": [
     "Mod by GraceMotley. Music by Koopastar, Disphing, et al."
   ],
@@ -14,7 +14,7 @@
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/motleysmusicdiscs/icon.png",
 
   "environment": "*",
   "entrypoints": {

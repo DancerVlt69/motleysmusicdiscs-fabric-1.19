@@ -70,6 +70,40 @@ public static final Item ANYDAYNOW_BOBURNHAM_MUSIC_DISC = registerItem("anydayno
         new ModMusicDiscItem(7, ModSounds.ANYDAYNOW_BOBURNHAM,
                 new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 56));
 
+public static final Item TAUNT_LOVEJOY_MUSIC_DISC = registerItem("taunt_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.TAUNT_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 130));
+public static final Item ONEDAY_LOVEJOY_MUSIC_DISC = registerItem("oneday_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.ONEDAY_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 141));
+public static final Item SEXSELLS_LOVEJOY_MUSIC_DISC = registerItem("sexsells_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.SEXSELLS_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 249));
+public static final Item CAUSEFORCONCERN_LOVEJOY_MUSIC_DISC = registerItem("causeforconcern_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.CAUSEFORCONCERN_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 199));
+public static final Item OHYEAHYOUGONNACRY_LOVEJOY_MUSIC_DISC = registerItem("ohyeahyougonnacry_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.OHYEAHYOUGONNACRY_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 160));
+public static final Item MODELBUSES_LOVEJOY_MUSIC_DISC = registerItem("modelbuses_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.MODELBUSES_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 168));
+public static final Item CONCRETE_LOVEJOY_MUSIC_DISC = registerItem("concrete_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.CONCRETE_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 192));
+public static final Item PERFUME_LOVEJOY_MUSIC_DISC = registerItem("perfume_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.PERFUME_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 214));
+public static final Item YOULLUNDERSTANDWHENYOUREOLDER_LOVEJOY_MUSIC_DISC = registerItem("youllunderstandwhenyoureolder_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.YOULLUNDERSTANDWHENYOUREOLDER_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 250));
+public static final Item THEFALL_LOVEJOY_MUSIC_DISC = registerItem("thefall_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.THEFALL_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 185));
+public static final Item ITSALLFUTILEITSALLPOINTLESS_LOVEJOY_MUSIC_DISC = registerItem("itsallfutileitsallpointless_lovejoy_music_disc",
+        new ModMusicDiscItem(7, ModSounds.ITSALLFUTILEITSALLPOINTLESS_LOVEJOY,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 217));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MotleysMusicDiscs.MOD_ID, name), item);
     }

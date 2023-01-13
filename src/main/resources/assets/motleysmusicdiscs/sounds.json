@@ -150,5 +150,93 @@
         "stream": true
       }
     ]
+  },
+"taunt_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:taunt_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"oneday_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:oneday_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"sexsells_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:sexsells_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"causeforconcern_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:causeforconcern_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"ohyeahyougonnacry_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:ohyeahyougonnacry_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"modelbuses_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:modelbuses_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"concrete_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:concrete_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"perfume_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:perfume_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"youllunderstandwhenyoureolder_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:youllunderstandwhenyoureolder_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"thefall_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:thefall_lovejoy",
+        "stream": true
+      }
+    ]
+  },
+"itsallfutileitsallpointless_lovejoy": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:itsallfutileitsallpointless_lovejoy",
+        "stream": true
+      }
+    ]
   }
 }

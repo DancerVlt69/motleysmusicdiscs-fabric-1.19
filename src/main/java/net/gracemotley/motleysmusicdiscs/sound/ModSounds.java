@@ -25,6 +25,18 @@ public class ModSounds {
     public static SoundEvent ALLEYESONME_BOBURNHAM = registerSoundEvent("alleyesonme_boburnham");
     public static SoundEvent GOODBYE_BOBURNHAM = registerSoundEvent("goodbye_boburnham");
     public static SoundEvent ANYDAYNOW_BOBURNHAM = registerSoundEvent("anydaynow_boburnham");
+    public static SoundEvent TAUNT_LOVEJOY = registerSoundEvent("taunt_lovejoy");
+    public static SoundEvent ONEDAY_LOVEJOY = registerSoundEvent("oneday_lovejoy");
+    public static SoundEvent SEXSELLS_LOVEJOY = registerSoundEvent("sexsells_lovejoy");
+    public static SoundEvent CAUSEFORCONCERN_LOVEJOY = registerSoundEvent("causeforconcern_lovejoy");
+    public static SoundEvent OHYEAHYOUGONNACRY_LOVEJOY = registerSoundEvent("ohyeahyougonnacry_lovejoy");
+    public static SoundEvent MODELBUSES_LOVEJOY = registerSoundEvent("modelbuses_lovejoy");
+    public static SoundEvent CONCRETE_LOVEJOY = registerSoundEvent("concrete_lovejoy");
+    public static SoundEvent PERFUME_LOVEJOY = registerSoundEvent("perfume_lovejoy");
+    public static SoundEvent YOULLUNDERSTANDWHENYOUREOLDER_LOVEJOY = registerSoundEvent("youllunderstandwhenyoureolder_lovejoy");
+    public static SoundEvent THEFALL_LOVEJOY = registerSoundEvent("thefall_lovejoy");
+    public static SoundEvent ITSALLFUTILEITSALLPOINTLESS_LOVEJOY = registerSoundEvent("itsallfutileitsallpointless_lovejoy");
+
 
 
 
