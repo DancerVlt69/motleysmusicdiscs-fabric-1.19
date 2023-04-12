@@ -56,6 +56,8 @@
   "item.motleysmusicdiscs.anydaynow_boburnham_music_disc": "Music Disc",
   "item.motleysmusicdiscs.anydaynow_boburnham_music_disc.desc": "Any Day Now - Bo Burnham",
 
+
+
   "item.motleysmusicdiscs.taunt_lovejoy_music_disc": "Music Disc",
   "item.motleysmusicdiscs.taunt_lovejoy_music_disc.desc": "Taunt - Lovejoy",
 
@@ -88,6 +90,29 @@
 
   "item.motleysmusicdiscs.itsallfutileitsallpointless_lovejoy_music_disc": "Music Disc",
   "item.motleysmusicdiscs.itsallfutileitsallpointless_lovejoy_music_disc.desc": "It's All Futile! It's All Pointless! - Lovejoy",
+
+
+
+  "item.motleysmusicdiscs.whiteball_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.whiteball_miraclemusical_music_disc.desc": "White Ball - Miracle Musical",
+
+  "item.motleysmusicdiscs.murders_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.murders_miraclemusical_music_disc.desc": "Murders - Miracle Musical",
+
+  "item.motleysmusicdiscs.spacestationlevel7_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.spacestationlevel7_miraclemusical_music_disc.desc": "宇宙ステーションのレベル7 - Miracle Musical",
+
+  "item.motleysmusicdiscs.themindelectric_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.themindelectric_miraclemusical_music_disc.desc": "The Mind Electric - Miracle Musical",
+
+  "item.motleysmusicdiscs.labyrinth_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.labyrinth_miraclemusical_music_disc.desc": "Labyrinth - Miracle Musical",
+
+  "item.motleysmusicdiscs.strandedlullaby_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.strandedlullaby_miraclemusical_music_disc.desc": "Stranded Lullaby - Miracle Musical",
+
+  "item.motleysmusicdiscs.dreamsweetincmajor_miraclemusical_music_disc": "Music Disc",
+  "item.motleysmusicdiscs.dreamsweetincmajor_miraclemusical_music_disc.desc": "Dream Sweet in C Major - Miracle Musical",
 
   "itemGroup.motleysmusicdiscs.discs": "Motley's Music Discs"
 }

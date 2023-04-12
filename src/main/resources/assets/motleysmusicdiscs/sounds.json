@@ -238,5 +238,61 @@
         "stream": true
       }
     ]
+  },
+"whiteball_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:whiteball_miraclemusical",
+        "stream": true
+      }
+    ]
+  },
+"murders_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:murders_miraclemusical",
+        "stream": true
+      }
+    ]
+  },
+"spacestationlevel7_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:spacestationlevel7_miraclemusical",
+        "stream": true
+      }
+    ]
+  },
+"themindelectric_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:themindelectric_miraclemusical",
+        "stream": true
+      }
+    ]
+  },
+"labyrinth_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:labyrinth_miraclemusical",
+        "stream": true
+      }
+    ]
+  },
+"strandedlullaby_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:strandedlullaby_miraclemusical",
+        "stream": true
+      }
+    ]
+  },
+"dreamsweetincmajor_miraclemusical": {
+    "sounds": [
+      {
+        "name": "motleysmusicdiscs:dreamsweetincmajor_miraclemusical",
+        "stream": true
+      }
+    ]
   }
 }

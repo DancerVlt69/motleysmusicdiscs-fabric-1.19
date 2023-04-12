@@ -104,6 +104,32 @@ public static final Item ITSALLFUTILEITSALLPOINTLESS_LOVEJOY_MUSIC_DISC = regist
         new ModMusicDiscItem(7, ModSounds.ITSALLFUTILEITSALLPOINTLESS_LOVEJOY,
                 new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 217));
 
+public static final Item WHITEBALL_MIRACLEMUSICAL_MUSIC_DISC = registerItem("whiteball_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.WHITEBALL_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 205));
+public static final Item MURDERS_MIRACLEMUSICAL_MUSIC_DISC = registerItem("murders_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.MURDERS_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 158));
+public static final Item SPACESTATIONLEVEL7_MIRACLEMUSICAL_MUSIC_DISC = registerItem("spacestationlevel7_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.SPACESTATIONLEVEL7_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 71));
+public static final Item THEMINDELECTRIC_MIRACLEMUSICAL_MUSIC_DISC = registerItem("themindelectric_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.THEMINDELECTRIC_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 21));
+public static final Item LABYRINTH_MIRACLEMUSICAL_MUSIC_DISC = registerItem("labyrinth_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.LABYRINTH_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 34));
+public static final Item STRANDEDLULLABY_MIRACLEMUSICAL_MUSIC_DISC = registerItem("strandedlullaby_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.STRANDEDLULLABY_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 71));
+public static final Item DREAMSWEETINCMAJOR_MIRACLEMUSICAL_MUSIC_DISC = registerItem("dreamsweetincmajor_miraclemusical_music_disc",
+        new ModMusicDiscItem(7, ModSounds.DREAMSWEETINCMAJOR_MIRACLEMUSICAL,
+                new FabricItemSettings().group(ModItemGroup.DISCS).maxCount(1).rarity(Rarity.RARE), 62));
+
+
+
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MotleysMusicDiscs.MOD_ID, name), item);
     }

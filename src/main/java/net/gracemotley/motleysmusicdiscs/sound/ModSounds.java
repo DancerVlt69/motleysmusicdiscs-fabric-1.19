@@ -25,6 +25,8 @@ public class ModSounds {
     public static SoundEvent ALLEYESONME_BOBURNHAM = registerSoundEvent("alleyesonme_boburnham");
     public static SoundEvent GOODBYE_BOBURNHAM = registerSoundEvent("goodbye_boburnham");
     public static SoundEvent ANYDAYNOW_BOBURNHAM = registerSoundEvent("anydaynow_boburnham");
+
+
     public static SoundEvent TAUNT_LOVEJOY = registerSoundEvent("taunt_lovejoy");
     public static SoundEvent ONEDAY_LOVEJOY = registerSoundEvent("oneday_lovejoy");
     public static SoundEvent SEXSELLS_LOVEJOY = registerSoundEvent("sexsells_lovejoy");
@@ -37,6 +39,14 @@ public class ModSounds {
     public static SoundEvent THEFALL_LOVEJOY = registerSoundEvent("thefall_lovejoy");
     public static SoundEvent ITSALLFUTILEITSALLPOINTLESS_LOVEJOY = registerSoundEvent("itsallfutileitsallpointless_lovejoy");
 
+
+    public static SoundEvent WHITEBALL_MIRACLEMUSICAL = registerSoundEvent("whiteball_miraclemusical");
+    public static SoundEvent MURDERS_MIRACLEMUSICAL = registerSoundEvent("murders_miraclemusical");
+    public static SoundEvent SPACESTATIONLEVEL7_MIRACLEMUSICAL = registerSoundEvent("spacestationlevel7_miraclemusical");
+    public static SoundEvent THEMINDELECTRIC_MIRACLEMUSICAL = registerSoundEvent("themindelectric_miraclemusical");
+    public static SoundEvent LABYRINTH_MIRACLEMUSICAL = registerSoundEvent("labyrinth_miraclemusical");
+    public static SoundEvent STRANDEDLULLABY_MIRACLEMUSICAL = registerSoundEvent("strandedlullaby_miraclemusical");
+    public static SoundEvent DREAMSWEETINCMAJOR_MIRACLEMUSICAL = registerSoundEvent("dreamsweetincmajor_miraclemusical");
 
 
 
