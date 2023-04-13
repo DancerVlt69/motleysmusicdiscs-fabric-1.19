@@ -19,6 +19,9 @@ public class ModLootTableModifiers {
     public static final Identifier SIMPLE_DUNGEON_STRUCTURE_CHEST_ID
             = new Identifier("minecraft", "chests/simple_dungeon");
 
+    public static final Identifier DESERT_PYRAMID_STRUCTURE_CHEST_ID
+            = new Identifier("minecraft", "chests/desert_temple");
+
     public static void modifyLootTables() {
 
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -32,7 +35,9 @@ public class ModLootTableModifiers {
                 }
             }
         );
-LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
+
+
+        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
             if(DESERT_PYRAMID_STRUCTURE_CHEST_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
@@ -44,6 +49,4 @@ LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder,
             }
         );
     }
-    public static final Identifier DESERT_PYRAMID_STRUCTURE_CHEST_ID
-            = new Identifier("minecraft", "chests/desert_temple");
 }
