@@ -8,6 +8,7 @@ import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.MatchToolLootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.entry.TagEntry;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
@@ -25,15 +26,24 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
-                        .with(ItemEntry.builder(ModItems.CONTENT_BOBURNHAM_MUSIC_DISC))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f,1.0f)).build());
+                        .with(TagEntry.builder(ModTags.Items.MUSIC_DISCS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
-
-            LootPool[] pools = lootManager.getTable(new Identifier(Initializer.MODID, "custom loot table path")).pools;
-
-            if (pools !=null)
-                buildPools(tableBuilder, pools);
-                    }
-        });
+                }
+            }
+        );
+LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
+            if(DESERT_PYRAMID_STRUCTURE_CHEST_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
+                        .with(TagEntry.builder(ModTags.Items.MUSIC_DISCS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+                tableBuilder.pool(poolBuilder.build());
+                }
+            }
+        );
     }
+    public static final Identifier DESERT_PYRAMID_STRUCTURE_CHEST_ID
+            = new Identifier("minecraft", "chests/desert_temple");
 }
