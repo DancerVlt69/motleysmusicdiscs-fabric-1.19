@@ -40,7 +40,7 @@ public class ModLootTableModifiers {
             if(DESERT_PYRAMID_STRUCTURE_CHEST_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
+                        .conditionally(RandomChanceLootCondition.builder(1.0f)) // Drops 50% of the time
                         .with(TagEntry.builder(ModTags.Items.MUSIC_DISCS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
@@ -52,7 +52,7 @@ public class ModLootTableModifiers {
             if(ANCIENT_CITY_STRUCTURE_CHEST_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
+                        .conditionally(RandomChanceLootCondition.builder(1.0f)) // Drops 50% of the time
                         .with(TagEntry.builder(ModTags.Items.MUSIC_DISCS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
@@ -65,7 +65,7 @@ public class ModLootTableModifiers {
             if(END_CITY_TREASURE_STRUCTURE_CHEST_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
+                        .conditionally(RandomChanceLootCondition.builder(1.0f)) // Drops 50% of the time
                         .with(TagEntry.builder(ModTags.Items.MUSIC_DISCS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
